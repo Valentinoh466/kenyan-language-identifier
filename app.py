@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import re
+import altair as alt
 
 # Load model and vectorizer exported from notebook
 model = joblib.load("language_model.pkl")
